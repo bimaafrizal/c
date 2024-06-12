@@ -1,0 +1,5 @@
+malam
+radar
+buku
+mobil
+racecar
