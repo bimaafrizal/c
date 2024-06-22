@@ -111,7 +111,7 @@ int main()
 
         if (statusInput == 2)
         {
-            if (i < 5)
+            if (i < 10)
             { 
                 printf("Jumlah mahasiswa kurang dari 10, tambahkan lagi\n");
                 i++;
