@@ -31,7 +31,7 @@ int main() {
    sort(array);
 
    //print array
-   for (int i = 0; i < 32; i++)
+   for (i = 0; i < 32; i++)
    {
     printf("%ld \n", array[i]);
    }
