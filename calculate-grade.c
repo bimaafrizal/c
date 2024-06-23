@@ -33,7 +33,7 @@ char calculateGrade(float finalGrade)
 void printResult(char **studentName, float *nilai_quis, float *nilai_tugas, float *nilai_absensi, float *nilai_praktek, float *nilai_uas, float *average, int j)
 {
     char grade = calculateGrade(average[j]);
-    char *lulus = average[j] >= 65 ? "Lulus" : "Tidak Lulus";
+    char *lulus = average[j] > 65 ? "Lulus" : "Tidak Lulus";
     printf("Nama: %s\n", studentName[j]);
     printf("Nilai Quis: %.2f\n", nilai_quis[j]);
     printf("Nilai Tugas: %.2f\n", nilai_tugas[j]);
@@ -111,7 +111,7 @@ int main()
 
         if (statusInput == 2)
         {
-            if (i < 10)
+            if (i < 9)
             { 
                 printf("Jumlah mahasiswa kurang dari 10, tambahkan lagi\n");
                 i++;
