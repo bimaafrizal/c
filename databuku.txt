@@ -1,0 +1,3 @@
+Programming_C_Book Education 45000.0
+Data_Structures_Book Education 55000.0
+Cooking_Recipe Book Cooking 35000.0

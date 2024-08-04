@@ -1,0 +1,2 @@
+B1	Tutorial C	Teknologi	50000.00
+B2	One Piece	Komik	20000.00
